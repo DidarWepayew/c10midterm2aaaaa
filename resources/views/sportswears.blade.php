@@ -7,6 +7,6 @@
     <title>Sportswears</title>
 </head>
 <body>
-<h1 style="text-align: center; color: brown;">Yeah baby you are in sportswears</h1>
+<h1 style="text-align: center; color: brown;">sportswears</h1>
 </body>
 </html>

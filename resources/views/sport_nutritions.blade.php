@@ -7,6 +7,6 @@
     <title>Sportswears</title>
 </head>
 <body>
-<h1 style="text-align: center; color: black;"> Sport nutritions aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+<h1 style="text-align: center; color: black;"> Sport nutritions</h1>
 </body>
 </html>
