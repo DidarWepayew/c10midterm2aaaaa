@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('index')
 @section('title')
     @lang('app.register')
 @endsection
