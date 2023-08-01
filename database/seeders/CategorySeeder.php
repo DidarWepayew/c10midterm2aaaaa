@@ -28,3 +28,4 @@ class CategorySeeder extends Seeder
             $el->save();
         }
 }
+}
