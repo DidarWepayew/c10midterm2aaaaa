@@ -7,6 +7,6 @@
     <title>Sportswears</title>
 </head>
 <body>
-<h1 style="text-align: center; color: brown;">sportswears</h1>
+<h1 style="text-align: center; color: brown;">Sportswears</h1>
 </body>
 </html>
