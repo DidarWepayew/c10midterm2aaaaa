@@ -8,7 +8,7 @@
     <div class="container-xl">
         <div class="row text-danger">
             <div class="col-12 col-md-5">
-                <img class="card-img-top " src="{{$product->image}}" alt="image" style="width:100%">
+                <img class="card-img-top " src="{{asset('img/mainslidephoto2.jpg')}}" alt="image" style="width:100%">
             </div>
             <div class="col-12 col-md-6 text-center text-md-start">
                 <h4 class="h1 fw-normal pb-1">{{$product->name_tm}}</h4>

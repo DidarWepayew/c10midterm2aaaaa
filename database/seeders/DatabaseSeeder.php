@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -23,8 +23,10 @@ class DatabaseSeeder extends Seeder
             LocationSeeder::class,
         ]);
 
-        \App\Models\Product::factory(1000)->create();
+
         \App\Models\Brand::factory(100)->create();
+        \App\Models\Product::factory(1000)->create();
+
 
 
 

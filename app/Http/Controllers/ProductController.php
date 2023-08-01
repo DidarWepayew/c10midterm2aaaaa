@@ -46,7 +46,7 @@ class ProductController extends Controller
         $categories = Category::orderBy('name')
             ->get();
 
-        return view('Product.index')
+        return view('sportswears')
             ->with([
                 'products' => $products,
                 'categories' => $categories,

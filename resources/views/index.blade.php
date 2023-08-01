@@ -18,7 +18,7 @@
     <script type="text/javascript" src="{{ asset('js/loading_screen') }}"></script>
 
 </head>
-<body >
+<body>
     <!-- Loading_screen -->
     <div id="preloader_malc">
         <div>
@@ -56,7 +56,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="/sportswears">Sportswears</a>
+                <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="{{route('sportswears')}}">Sportswears</a>
             </li>
 
             <li class="nav-item">
@@ -596,10 +596,7 @@
 
 
 
-
-
-
-
-
+</div>
 </body>
+
 </html>

@@ -34,7 +34,7 @@ Route::get('/sport_nutritions', function () {
 
 
 Route::get('/product/{id}', [MainController::class, 'details'])->name('details');
-Route::get('/search', [ProductController::class,'index'])->name('product.index');
+Route::get('/sportswears', [ProductController::class,'index'])->name('sportswears');
 Route::get('/reviews' , [ReviewController::class, 'reviews'])->name('reviews');
 Route::get('/messages' , [ReviewController::class, 'allMessages'])->name('messages');
 Route::post('/review/submit' , [ReviewController::class, 'reviews_submit'])->name('reviews_submit');
