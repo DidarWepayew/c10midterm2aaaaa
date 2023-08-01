@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\MainController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ReviewController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,6 +32,10 @@ Route::get('/sport_nutritions', function () {
     return view('sport_nutritions');
 });
 
-Route::get('/sportswears', function () {
-    return view('sportswears');
-});
+
+Route::get('/product/{id}', [MainController::class, 'details'])->name('details');
+Route::get('/search', [ProductController::class,'index'])->name('product.index');
+Route::get('/reviews' , [ReviewController::class, 'reviews'])->name('reviews');
+Route::get('/messages' , [ReviewController::class, 'allMessages'])->name('messages');
+Route::post('/review/submit' , [ReviewController::class, 'reviews_submit'])->name('reviews_submit');
+
